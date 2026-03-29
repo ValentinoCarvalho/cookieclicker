@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5473/5473473.png">
+
+    <style>
+        h1 {position: absolute; bottom: 0; right: 0; color: #222e72;}
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cookieImg {
+            height: 400px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            filter: drop-shadow(0 10px 10px);
+        }
+
+        .cookieImg>img {
+            height: 300px;
+            border-radius: 50%;
+        }
+
+        .cookieImg>img:active {
+            height: 350px;
+        }
+
+        section {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
+
+        h2 { background-color: #fefeff; padding: 30px; border-radius: 50px;}
+
+    </style>
+</head>
+
+<body style="background-color: #374597; background-image: utr;">
+
+    <main>
+        <div class="cookieImg"><img id="cookieImg"
+                src="https://png.pngtree.com/png-vector/20250425/ourmid/pngtree-chocolate-chip-cookie-icon-white-background-png-image_16100260.png"
+                alt="" draggable="false"></div>
+        <h2 id="h2_voceClicou">VOCÊ CLICOU 0 VEZES</h2>
+        <section style="margin: 20px 0 20px;">
+            <button style="height: 50px; width: 100px;font-size: larger;" id="powerUp2x">X2</button>
+            <button style="height: 50px; width: 100px;font-size: larger;" id="powerUp4x">X4</button>
+            <button style="height: 50px; width: 100px;font-size: larger;" id="powerUp6x">X6</button>
+            <button style="height: 50px; width: 100px;font-size: larger;" id="powerUp8x">X8</button>
+            <button style="height: 50px; width: 100px;font-size: larger;" id="powerUp10x">X10</button>
+        </section>
+        <button id="button" style="background-color: red; color: aliceblue; height: 40px; width: 100px;">RESETAR</button>
+    </main>
+    
+    <script src="./teste2.js"></script>
+
+</body>
+
+</html>
