@@ -38,7 +38,7 @@ const data = { cliques: 0, };
 
 data.cliques = Number(localStorage.getItem('cliquetes'));
 
-infoMostrada.textContent = `VOCÊ TEM ${localStorage.getItem('cliquetes')} COOKIES`;
+infoMostrada.textContent = `VOCÊ TEM ${data.cliques} COOKIES`;
 
 powerUpFun()
 
